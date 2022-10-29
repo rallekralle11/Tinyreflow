@@ -1,0 +1,5 @@
+pulldown P4 X
+ändra AVR ISP X
+
+knapp 1 = 703
+knapp 2 = 468
