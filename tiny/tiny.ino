@@ -200,3 +200,16 @@ void loop(){
   
 //  delay(20);
 }
+
+
+void sn64pb37(){
+  long sn64pb37[] {150, 60000, 160, 120000, 230, 20000};  //reflow temps and time. preheat 150C for 60000ms, soak 160 for 120000ms, reflow 230 for 20000ms
+}
+
+void sac305(){
+  long sac305[] {150, 60000, 170, 120000, 250, 15000};  //first two are from compuphase
+}
+
+void Sn42Bi576Ag04(){
+  long Sn42Bi576Ag04[] {90, 5000, 110, 90000, 165, 5000};  //this one's based on chipquik paste
+}

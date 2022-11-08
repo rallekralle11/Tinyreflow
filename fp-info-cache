@@ -1,4 +1,4 @@
-20517096323976640
+20536899995845547
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85511,6 +85511,90 @@ igbt diode module
 0
 25
 25
+USB-C-Connectors-master
+1206_reverse_mount_LED
+Everlight 26-21/BHC-ATW/CA, LCSC Part # C264553
+
+0
+2
+2
+USB-C-Connectors-master
+APA102-2020
+
+
+0
+8
+6
+USB-C-Connectors-master
+TYPE-C-31-M-04
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+28
+28
+USB-C-Connectors-master
+TYPE-C-31-M-12
+Korean Hroparts Elec, Power only USB connector supporting up to 3A
+
+0
+20
+17
+USB-C-Connectors-master
+TYPE-C-31-M-14
+Korean Hroparts Elec, Power only USB connector supporting up to 3A
+
+0
+20
+17
+USB-C-Connectors-master
+TYPE-C-31-M-17
+Korean Hroparts Elec, Power only USB connector supporting up to 3A
+
+0
+10
+7
+USB-C-Connectors-master
+TYPE-C-31-M-17_handsolder
+Korean Hroparts Elec, Power only USB connector supporting up to 3A, easier to solder w/0.3mm pad separation
+
+0
+10
+7
+USB-C-Connectors-master
+U-A-39DS-Y-1
+
+
+0
+11
+10
+USB-C-Connectors-master
+U-B-M9DD-W-1
+ Korean Hroparts Elec, USB 3.0 Type B
+USB3
+0
+9
+9
+USB-C-Connectors-master
+U-F-10SW-Y-1
+Korean Hroparts Elec, USB 3.0 Female Micro-B, 1.5A 2 Surface Mount 5+5
+USB3
+0
+16
+11
+USB-C-Connectors-master
+USB-C MC-314C-4P16
+
+
+0
+18
+13
+USB-C-Connectors-master
+USB-C MC-314C-4P16_roundholes
+
+
+0
+18
+13
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
