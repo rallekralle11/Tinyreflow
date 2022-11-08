@@ -432,10 +432,10 @@
       (net 3 "+5V") (pintype "passive") (tstamp 95065b5c-858f-4864-b4b4-c637b5bffa6c))
     (pad "2" thru_hole oval (at 2.54 0) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask)
       (net 9 "Net-(R2-Pad1)") (pintype "passive") (tstamp 8e8d0f42-35bd-423e-8886-594f4ba9a2ac))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/weirdthermistor.stp"
+      (offset (xyz 0 0 -2.25))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -30644,8 +30644,8 @@
   (gr_text "RESET" (at 157 92.75) (layer "F.SilkS") (tstamp 88ae3461-736d-4e35-8930-898d4ca3147c)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "70x50mm TinyReflow V1,2 CC-BY 4,0" (at 108.5 119.25 270) (layer "F.SilkS") (tstamp e35b255d-30c6-47e7-8cfd-8c8228bd8e80)
-    (effects (font (size 1.5 1.5) (thickness 0.375)))
+  (gr_text "70x50mm TinyReflow V1,2 CERN-OHL-P v2" (at 108.5 119.5 270) (layer "F.SilkS") (tstamp e35b255d-30c6-47e7-8cfd-8c8228bd8e80)
+    (effects (font (size 1.3 1.3) (thickness 0.3)))
   )
 
   (segment (start 135.75 86) (end 136.75 86) (width 0.75) (layer "F.Cu") (net 1) (tstamp 01d21f4c-4478-4e11-b58b-b2aa96a89c49))

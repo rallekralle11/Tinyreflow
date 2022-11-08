@@ -1,0 +1,17 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C2";"C_Disc_D5.0mm_W2.5mm_P2.50mm";1;"10nf";;;
+2;"J3";"PinHeader_2x03_P2.54mm_Vertical";1;"Conn_02x03_M";;;
+3;"R8,R1,R7,R2";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";4;"10kΩ";;;
+4;"U2";"TO-92_Wide";1;"L78L05_TO92";;;
+5;"SW3,SW1,SW2";"SW_PUSH_6mm_H4.3mm";3;"SW_MEC_5E";;;
+6;"J2";"PinSocket_1x04_P2.54mm_Vertical";1;"Conn_01x04_F";;;
+7;"TH1";"R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical";1;"10kΩ";;;
+8;"R4,R3,R5";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";3;"1kΩ";;;
+9;"R6";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"2,2kΩ";;;
+10;"D1";"LED_D3.0mm";1;"LED";;;
+11;"";"";1;"";;;
+12;"U1";"DIP-8_W7.62mm";1;"ATtiny85";;;
+13;"Q1";"TO-220F-3_Vertical";1;"Q_NMOS_GDS";;;
+14;"C3";"CP_Radial_D6.3mm_P2.50mm";1;"100µf";;;
+15;"J1";"BarrelJack_Horizontal";1;"Barrel_Jack_MountingPin";;;
+16;"C1";"C_Disc_D5.0mm_W2.5mm_P2.50mm";1;"330nf";;;
