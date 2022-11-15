@@ -17,13 +17,6 @@ int target, lasttarget, conval, phase;
 int fet = 255; //power sent to the heater
 bool heat = 0, lastheat, test;
 
-long sn64pb37[] {150, 60000, 160, 120000, 230, 20000};  //reflow temps and time. preheat 150C for 60000ms, soak 160 for 120000ms, reflow 230 for 20000ms
-long sac305[] {150, 60000, 170, 120000, 250, 15000};  //first two are from compuphase
-long Sn42Bi576Ag04[] {90, 5000, 110, 90000, 165, 5000};  //this one's based on chipquik paste
-long testarray[] {30, 5000, 40, 10000, 50, 10000};
-
-long *values;
-
 int paste = 2;  //used to cycle between temps, starts at bismuth mix temps
 
 long getmillis, startmillis, timer;
@@ -157,42 +150,6 @@ void loop(){
       }*/
     }
 
-    if(phase == 0){  //if the first phase is active
-      target = values[0];  //get the starting temp and time
-      timer = values[1];
-
-    }
-    if(phase == 1){
-      target = values[2];  //next values
-      timer = values[3];
-    }
-    if(phase == 2){
-      target = values[4];  //next values
-      timer = values[5];
-    }
-    if(phase == 3){  //when it gets to this phase, shut down heater and reset the counter
-      phase == 0;
-      heat == 0;
-    }
-    
-    if(T == target & !test){  //start timer and make sure it only runs once
-      startmillis = getmillis;
-      test = 1;
-    }
-    if(getmillis > (startmillis + timer)){  //if the timer's run out, run this
-      phase++;
-      test = 0;
-    }
-    
-   if(target > T){
-    analogWrite(1, fet);  //set heating power
-    oled.setCursor(0, 0);
-    oled.print("H");  //for heating
-   }
-  }
-  else{
-    analogWrite(1, 0);
-  }
 
   lasttarget = target;
   lasttemp = T2;
